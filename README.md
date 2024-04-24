@@ -16,6 +16,7 @@ This is a Proof of Concept (PoC) and not an official product of the University o
 - [x] QoL: Auto select GPT-4 Turbo Model on website load (=> fixes a bug when GPT-3.5 is preselected and ```localStorage.getItem('model') === null``` the website defaults to ```gpt-4-turbo```)
 - [x] Support for multiple browsers running [Tampermonkey](https://www.tampermonkey.net/) (Safari currently not supported)
   - Tested on: Google Chrome, Brave Browser and Firefox. Should work on other Chromium or Gecko based browsers as well
+- [x] Autohide usage hint banner on website load
 - [ ] Display past uploaded images below user message
 
 ## ⚙️ Installation
