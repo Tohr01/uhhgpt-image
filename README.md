@@ -14,9 +14,9 @@ This is a Proof of Concept (PoC) and not an official product of the University o
 - [x] Allows users to upload images to the UHHGPT web portal and interact with GPT-4 for inquiries
   - [ ] Feature not yet available: Saving past image queries for extended discussions. (Current state: One query and one image. If you want to continue the conversation about the image you may upload it again. Should be fixed in the next releases)
 - [x] QoL: Auto select GPT-4 Turbo Model on website load
+- [x] QoL: Autohide usage hint banner on website load
 - [x] Support for multiple browsers running [Tampermonkey](https://www.tampermonkey.net/) (Safari currently not supported)
   - Tested on: Google Chrome, Brave Browser and Firefox. Should work on other Chromium or Gecko based browsers as well
-- [x] Autohide usage hint banner on website load
 - [ ] Display past uploaded images below user message
 
 ## ⚙️ Installation
