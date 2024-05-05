@@ -239,6 +239,14 @@ document.addEventListener('DOMContentLoaded', () => {
    sendBtn.insertAdjacentHTML('beforebegin', imgIconUnselcted);
    const imgIconElem = document.getElementById('uploadImg');
 
+   // Resize button svgs
+   const btn_svgs = document.querySelectorAll(".input-send");
+   for (let i = 0; i < btn_svgs.length; i++) {
+       const svg = btn_svgs[i].getElementsByTagName('svg')[0];
+       svg.setAttribute('width', 25);
+       svg.setAttribute('height', 25);
+   }
+
    // Add onclick listener to handle file picking or discarding of file
    imgIconElem.addEventListener('click', () => {
       // Check if an image is currently selected
