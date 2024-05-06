@@ -30,8 +30,8 @@ GM_addStyle (`
 ` );
 
 // Image icon
-const IMG_SVG_UNSELECTED = `<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"	width="80" height="80" viewBox="0 0 230.9 233.3" style="enable-background:new 0 0 230.9 233.3;" xml:space="preserve"><style type="text/css">	.st0{fill:none;stroke:#0871B9;stroke-width:15;stroke-miterlimit:10;}	.st1{fill-rule:evenodd;clip-rule:evenodd;fill:#0971B9;}	.st2{fill:none;stroke:#0871B9;stroke-width:20;stroke-miterlimit:10;}	.st3{fill-rule:evenodd;clip-rule:evenodd;fill:#0871B9;}</style><g>	<path class="st0" d="M191.8,106.6c-3.7-3.2-9.3-2.8-12.5,0.9l-45.4,51.9c-3,3.4-8,4-11.7,1.5l-27.8-19.1c-3.4-2.3-7.9-2-10.9,0.7		l-49.6,44.3c-1,0.9-1.1,2.5-0.3,3.5c14.8,18.4,40.7,25,82.8,25c73.5,0,97.4-20,99.8-88L191.8,106.6z"/>	<path class="st1" d="M191.8,106.6c-3.7-3.2-9.3-2.8-12.5,0.9l-45.4,51.9c-3,3.4-8,4-11.7,1.5l-27.8-19.1c-3.4-2.3-7.9-2-10.9,0.7		l-49.6,44.3c-1,0.9-1.1,2.5-0.3,3.5c14.8,18.4,40.7,25,82.8,25c73.5,0,97.4-20,99.8-88L191.8,106.6z"/></g><g>	<g>		<path class="st2" d="M16.4,115.4c0,77.6,22.4,100,100,100"/>	</g>	<g>		<path class="st2" d="M216.4,115.4c0,77.6-22.4,100-100,100"/>	</g>	<g>		<path class="st2" d="M16.4,115.4c0-77.6,22.4-100,100-100"/>	</g>	<g>		<path class="st2" d="M216.4,115.4c0-77.6-22.4-100-100-100"/>	</g></g><circle class="st3" cx="74.3" cy="70.5" r="15.9"/></svg>`
-const IMG_SVG_SELECTED = `<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="80" height="80" viewBox="0 0 230.9 233.3" style="enable-background:new 0 0 230.9 233.3;" xml:space="preserve"> <style type="text/css"> 	.st0{fill:none;stroke:#0871B9;stroke-width:20;stroke-miterlimit:10;} 	 		.st1{fill-rule:evenodd;clip-rule:evenodd;fill:#0871B9;stroke:#0371BB;stroke-width:20;stroke-linecap:round;stroke-miterlimit:10;} </style> <g> 	<g> 		<path class="st0" d="M16.4,115.4c0,77.6,22.4,100,100,100"/> 	</g> 	<g> 		<path class="st0" d="M216.4,115.4c0,77.6-22.4,100-100,100"/> 	</g> 	<g> 		<path class="st0" d="M16.4,115.4c0-77.6,22.4-100,100-100"/> 	</g> 	<g> 		<path class="st0" d="M216.4,115.4c0-77.6-22.4-100-100-100"/> 	</g> </g> <g> 	<line class="st1" x1="73.5" y1="73.8" x2="159.3" y2="159.5"/> 	<line class="st1" x1="159.3" y1="73.8" x2="73.5" y2="159.5"/> </g> </svg>`
+const IMG_SVG_UNSELECTED = `<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="25" height="25" viewBox="0 0 230.9 233.3" style="enable-background:new 0 0 230.9 233.3;" xml:space="preserve"><style type="text/css"> .st0{fill:none;stroke:#0871B9;stroke-width:15;stroke-miterlimit:10;} .st1{fill-rule:evenodd;clip-rule:evenodd;fill:#0971B9;} .st2{fill:none;stroke:#0871B9;stroke-width:20;stroke-miterlimit:10;} .st3{fill-rule:evenodd;clip-rule:evenodd;fill:#0871B9;}</style><g><path class="st0" d="M191.8,106.6c-3.7-3.2-9.3-2.8-12.5,0.9l-45.4,51.9c-3,3.4-8,4-11.7,1.5l-27.8-19.1c-3.4-2.3-7.9-2-10.9,0.7	l-49.6,44.3c-1,0.9-1.1,2.5-0.3,3.5c14.8,18.4,40.7,25,82.8,25c73.5,0,97.4-20,99.8-88L191.8,106.6z"/>	<path class="st1" d="M191.8,106.6c-3.7-3.2-9.3-2.8-12.5,0.9l-45.4,51.9c-3,3.4-8,4-11.7,1.5l-27.8-19.1c-3.4-2.3-7.9-2-10.9,0.7 l-49.6,44.3c-1,0.9-1.1,2.5-0.3,3.5c14.8,18.4,40.7,25,82.8,25c73.5,0,97.4-20,99.8-88L191.8,106.6z"/></g><g><g> <path class="st2" d="M16.4,115.4c0,77.6,22.4,100,100,100"/></g>	<g><path class="st2" d="M216.4,115.4c0,77.6-22.4,100-100,100"/>	</g><g><path class="st2" d="M16.4,115.4c0-77.6,22.4-100,100-100"/></g><g><path class="st2" d="M216.4,115.4c0-77.6-22.4-100-100-100"/>	</g></g><circle class="st3" cx="74.3" cy="70.5" r="15.9"/></svg>`
+const IMG_SVG_SELECTED = `<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="25" height="25" viewBox="0 0 230.9 233.3" style="enable-background:new 0 0 230.9 233.3;" xml:space="preserve"> <style type="text/css"> .st0{fill:none;stroke:#0871B9;stroke-width:20;stroke-miterlimit:10;} .st1{fill-rule:evenodd;clip-rule:evenodd;fill:#0871B9;stroke:#0371BB;stroke-width:20;stroke-linecap:round;stroke-miterlimit:10;} </style><g><g><path class="st0" d="M16.4,115.4c0,77.6,22.4,100,100,100"/></g><g><path class="st0" d="M216.4,115.4c0,77.6-22.4,100-100,100"/></g><g><path class="st0" d="M16.4,115.4c0-77.6,22.4-100,100-100"/></g><g><path class="st0" d="M216.4,115.4c0-77.6-22.4-100-100-100"/></g></g> <g> 	<line class="st1" x1="73.5" y1="73.8" x2="159.3" y2="159.5"/> <line class="st1" x1="159.3" y1="73.8" x2="73.5" y2="159.5"/> </g> </svg>`
 
 unsafeWindow.showImgIcon = () => {
    const imgIcon = document.getElementById("uploadImg");
@@ -239,14 +239,12 @@ document.addEventListener('DOMContentLoaded', () => {
    sendBtn.insertAdjacentHTML('beforebegin', imgIconUnselcted);
    const imgIconElem = document.getElementById('uploadImg');
 
-   // Resize button svgs
-   const btn_svgs = document.querySelectorAll(".input-send");
-   for (let i = 0; i < btn_svgs.length; i++) {
-       const svg = btn_svgs[i].getElementsByTagName('svg')[0];
-       svg.setAttribute('width', 25);
-       svg.setAttribute('height', 25);
-   }
-
+   // Resize send button svg
+   const btn_svg = document.querySelectorAll(".input-send")[1];
+   const svg = btn_svg.getElementsByTagName('svg')[0];
+   svg.setAttribute('width', 25);
+   svg.setAttribute('height', 25);
+   
    // Add onclick listener to handle file picking or discarding of file
    imgIconElem.addEventListener('click', () => {
       // Check if an image is currently selected
