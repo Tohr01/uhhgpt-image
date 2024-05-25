@@ -205,7 +205,7 @@ if (typeof InstallTrigger === 'undefined') {
 unsafeWindow.modelSelectionChanged = (model) => {
    if (model === "gpt4") {
       showImgIcon()
-      localStorage.setItem('model', 'gpt-4-turbo');
+      localStorage.setItem('model', 'gpt-4o');
    } else {
       unsafeWindow.currentImg = undefined;
       hideImgIcon();
@@ -219,7 +219,7 @@ document.addEventListener('DOMContentLoaded', () => {
    // Remove data protection banner
    document.getElementById('data-protection').remove();
 
-   // Set GPT 4 Turbo as default and override onchange attribute
+   // Set GPT 4 Omni as default and override onchange attribute
    const radiogroup = document.getElementsByClassName("radiogroup")[0];
    const gpt3Input = radiogroup.children[0].children[0];
    const gpt4Input = radiogroup.children[1].children[0]
