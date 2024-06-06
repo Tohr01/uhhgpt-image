@@ -216,9 +216,6 @@ unsafeWindow.modelSelectionChanged = (model) => {
 unsafeWindow.current_img = undefined;
 
 document.addEventListener('DOMContentLoaded', () => {
-   // Remove data protection banner
-   document.getElementById('data-protection').remove();
-
    // Set GPT 4 Omni as default and override onchange attribute
    const radiogroup = document.getElementsByClassName("radiogroup")[0];
    const gpt3Input = radiogroup.children[0].children[0];
