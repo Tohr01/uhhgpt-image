@@ -8,7 +8,7 @@ Utilize the capability of GPT-4o Vision on the UHHGPT web portal
 Image used can be found on <a href="https://pixabay.com/de/illustrations/ai-generiert-architektur-geb%C3%A4ude-8631634">Pixabay</a>
 
 ## 🛑 Disclaimer
-This is a Proof of Concept (PoC) and not an official product of the University of Hamburg.
+This is a Proof of Concept (PoC) and is not officially affiliated with the University of Hamburg.
 
 ## ⭐ Features
 - [x] Allows users to upload images to the UHHGPT web portal and interact with GPT-4o for inquiries
