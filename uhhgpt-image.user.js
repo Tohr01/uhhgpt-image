@@ -265,7 +265,7 @@ document.addEventListener('DOMContentLoaded', () => {
             setImgIconSelected();
          };
          reader.onerror = (error) => {
-            console.log('Error retrieving image: ', error);
+            alert(`Error retrieving image: ${error});`)
          };
       }
    });
