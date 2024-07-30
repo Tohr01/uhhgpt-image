@@ -201,27 +201,14 @@ if (typeof InstallTrigger === "undefined") {
     }
   });
 }
-unsafeWindow.modelSelectionChanged = (model) => {
-  if (model === "gpt4") {
-    showImgIcon();
-    localStorage.setItem("model", "gpt-4o");
-  } else {
-    unsafeWindow.currentImg = undefined;
-    hideImgIcon();
-    localStorage.setItem("model", "gpt-3.5-turbo");
-  }
-};
 
 unsafeWindow.current_img = undefined;
 
 document.addEventListener("DOMContentLoaded", () => {
-  // Set GPT 4 Omni as default and override onchange attribute
+  // Set GPT 4 Omni as default
   const radiogroup = document.getElementsByClassName("radiogroup")[0];
-  const gpt3Input = radiogroup.children[0].children[0];
-  const gpt4Input = radiogroup.children[1].children[0];
-  gpt3Input.setAttribute("onchange", "modelSelectionChanged('gpt3')");
-  gpt4Input.click();
-  gpt4Input.setAttribute("onchange", "modelSelectionChanged('gpt4')");
+  const gpt4oInput = radiogroup.children[1].children[0];
+  gpt4oInput.click();
 
   // Change input field style
   const input_field = document.getElementsByClassName("input");
