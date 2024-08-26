@@ -23,7 +23,7 @@ This is a Proof of Concept (PoC) and is not officially affiliated with the Unive
 1. Install the [Tampermonkey](https://www.tampermonkey.net/) extension
 2. Open the Tampermonkey Dashboard
 3. Add a new script
-4. Copy contents of [uhhgpt-image.user.js](uhhgpt-image.user.js) to the newly created script
+4. Copy contents of [uhhgpt-image.user.js](uhhgpt-image.user.js) to the newly created script or open the [raw version](https://github.com/Tohr01/uhhgpt-image/raw/master/uhhgpt-image.user.js) so Tampermonkey can prompt you to install the script directly
 
 ## 🍩 Acknowledgements / Credits
 [onbeforescriptexecute polyfill code](https://github.com/jspenguin2017/Snippets/blob/master/onbeforescriptexecute.html) by jspenguin2017 (MIT License)
